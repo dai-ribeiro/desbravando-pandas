@@ -14,7 +14,7 @@ df = pd.DataFrame({
 df
 
 # %%
-df_pedido = pd.read_csv('../data\pedido.csv')
+df_pedido = pd.read_csv('../data/pedido.csv')
 df_pedido.head()
 
 # %%
