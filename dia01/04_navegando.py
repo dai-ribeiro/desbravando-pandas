@@ -39,5 +39,3 @@ df_sample.loc[0] # index=0
 
 # %%
 df_sample.iloc[0:10][['idPedido', 'dtPedido']]
-
-# %%
