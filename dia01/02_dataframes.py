@@ -12,23 +12,44 @@ data = {
 data['idade']
 
 # %%
+
+# Cria um dataframe
 df = pd.DataFrame(data)
 df
 
 # %%
+
+# Retorna apenas a coluna 'idade'
 df['idade']
 
 # %%
+
+# Retorno: pandas.core.series.Series
 type(df['idade'])
 
 # %%
+
+# Retorno: pandas.core.frame.DataFrame
+type(df)
+
+# %%
+
+# Retorna a média das colunas 'idade' e 'renda'
 df[['idade', 'renda']].mean()
 
 # %%
+
+# Retorna as primeiras 5 linhas do dataframe
 df.head()
 
 # %%
+
+# Retorna as últimas 5 linhas do dataframe
 df.tail()
 
 # %%
-df.sample(10)
+
+# Retorna linhas aleatórias
+df.sample(3)
+
+# %%

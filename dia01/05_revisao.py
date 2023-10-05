@@ -31,3 +31,5 @@ df_pedido.iloc[0:10]
 
 # %%
 df_pedido.loc[892]
+
+# %%
